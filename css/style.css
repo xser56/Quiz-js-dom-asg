@@ -1,0 +1,51 @@
+.boxSize{
+    height:350px;
+    width: 400px;
+    border-radius: 1px;
+    outline-style: ridge;
+}
+
+.red
+{
+    background-color: red;
+    height:350px;
+    width: 400px;
+    border-radius: 1px;
+    outline-style: ridge;
+}
+
+.blue
+{
+    background-color: blue;
+    height:350px;
+    width: 400px;
+    border-radius: 1px;
+    outline-style: ridge;
+}
+
+.purple
+{
+    background-color: purple;
+
+    height:350px;
+    width: 400px;
+    border-radius: 1px;
+    outline-style: ridge;}
+
+.brown
+{
+    background-color: brown;
+    height:350px;
+    width: 400px;
+    border-radius: 1px;
+    outline-style: ridge;
+}
+
+.yellow
+{
+    background-color: yellow;
+    height:350px;
+    width: 400px;
+    border-radius: 1px;
+    outline-style: ridge;
+}
