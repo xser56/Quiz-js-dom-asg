@@ -51,13 +51,17 @@ changeColorBtn.addEventListener("click", function ()
     console.log("Box:", box);
     console.log("Color:", color);
 
-    if (!inArray(`box${box}`, boxArray)) {
-        return;
-    }
+    if (!inArray(`box${box}`, boxArray)) 
+        {
+            alert("Please enter a number between 1 and 8")
+            return;
+        }
 
-    if (!inArray(color, colorArray)) {    
-        return;
-    }
+    if (!inArray(color, colorArray))
+        {    
+            alert("Please enter Red, Blue, Purple, Brown, or Yellow")
+            return;
+        }
 
     let selectedBox = document.getElementById(`box${box}`);
     selectedBox.style.backgroundColor = color;
